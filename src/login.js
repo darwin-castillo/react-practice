@@ -15,25 +15,7 @@ import { makeStyles } from '@material-ui/core/styles';
 
 
   function login() {
-   alert('Aqui hacer el request ');
-
-  
-/*
-var url = 'https://kleanopsapi.herokuapp.com/api/login';
-var data = {username: 'example'};
-
-fetch(url, {
-  method: 'POST', // or 'PUT'
-  body: JSON.stringify(data), // data can be `string` or {object}!
-  headers:{
-    'Content-Type': 'application/json'
-  }
-}).then(res => res.json())
-.catch(error => console.error('Error:', error))
-.then(response => console.log('Success:', response));
-*/
-
-
+    console.log("aqui login");
   }
 
 function Copyright() {
@@ -104,7 +86,6 @@ export default function SignInSide() {
               id="email"
               label="Email Address"
               name="email"
-          
               autoComplete="email"
               autoFocus
             />
@@ -114,8 +95,6 @@ export default function SignInSide() {
               required
               fullWidth
               name="password"
-          
-              
               label="Password"
               type="password"
               id="password"
